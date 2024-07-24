@@ -271,7 +271,7 @@ textarea {
 .board{
     position: relative;
     color: white;
-    top: -1100px;
+    top: -1300px;
     border-radius: 10px;
     left: 1430px;
     height: 310px;
@@ -300,4 +300,28 @@ h2 img{
     position: relative;
     bottom: -8px;
     left: 120px;
+}
+.task-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.asset-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    top: 800px;
+    left: -800px;
+    width: 500px;
+    height: 300px;
+}
+
+.asset-container h2 {
+    margin-top: 0;
+}
+
+.asset-container p {
+    margin-bottom: 0;
 }
