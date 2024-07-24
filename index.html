@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+     <nav class="navbar">
+        <div class="logo">
+            <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="Logo">
+        </div>
+        <div class="nav-icons">
+            <i class="icon home-icon"></i>
+            <i class="icon tools-icon"></i>
+            <i class="icon bell-icon"></i>
+            <i class="icon user-icon"></i>
+            <i class="icon kebab-icon"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <h1>Technical Project Management
+                <img src="public/info.svg" alt="">
+            </h1>
+            <button class="submit-btn">Submit Task</button>
+        </header>
+        <section class="description">
+            <h2>Explore the world of management</h2>
+            <p>
+                As a project manager, you play an important role in leading a project through initiation,
+                planning, execution, monitoring, controlling and completion. How? Do you want to manage
+                each and every step of your life?
+            </p>
+        </section>
+    </div>
+
+    <div class="dashboard">
+        <div class="card">
+            <h2>Technical Project Management
+                <img src="public/info.svg" alt="">
+            </h2>
+            <p><strong>Description:</strong> Story of Alignment Scope of Agility Specific Accountable Staggering
+                Approach</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Threadbuild 
+                <img src="public/info.svg" alt="">
+            </h2>
+            <p><strong>Description:</strong> Watch the video and thread build, and jot out key threads while watching
+                that video.</p>
+            <div class="thread-section">
+                <h3 style="text-align: center; background-color:rgb(254, 253, 240) ;">
+                    <img src="public/up.svg" alt="">
+                    Thread A</h3>
+
+                <div class="thread">
+                    <div>
+                     <div>
+                        <h3 style="font-size:10px">Sub thread 1</h3>
+                        &nbsp;
+                    </div>
+                 <div style="position: relative; left: 300px; top: -30px;">
+                        <h3 style="font-size:10px">Sub Interpretation 1</h3>
+                        </div>
+                    </div>
+                    <div class="sub-thread" style="height: 100px;">
+                        
+                        <input type="text" placeholder="Enter Text Here">
+                        
+                        <input type="text" placeholder="Enter Text Here">
+                    </div>
+                </div>
+                <br>
+                    <img style="width: 200px; height: 40px; position: relative; left: 300px;" src="public/img.png" alt="">
+                    <br>
+                    <button class="add-thread-btn">+ Sub thread</button>
+                    <br>
+                    <br> 
+                    <div style="background-color:#F6F6F6 ; border: 1px solid rgb(209, 208, 208);border-radius: 10px;">
+                    Summary for Thread A 
+                    <textarea placeholder="Summary for Thread A"></textarea>
+                </div>
+                </div>
+            </div>
+       
+        <div class="card">
+            <h2>Structure Your Pointers 
+                <img src="public/info.svg" alt="">
+            </h2>
+            <p><strong>Description:</strong> Write a 300-400 word article, from your thread. Publish your understanding,
+                and showcase your understanding to the entire world.</p>
+                <hr>
+            <div class="editor">
+                <h3>Title</h3>
+                <input type="text" placeholder="Title">
+                <h3>Content</h3>
+
+                <textarea placeholder="Content"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <h2>4SA Method
+                <img src="public/info.svg" alt="">
+            </h2>
+            <p><strong>Description:</strong> To explore more read more</p>
+            <hr style="background-color: #F2F2F2;">
+            <div class="method-section">
+                <div class="method">
+                    <h3 style="background-color: #F2F2F2; height: 30px;">
+                        <img src="public/up.svg" alt="">
+                        Introduction</h3>
+                    <p>The 4SA Method, How to bring an idea into process?</p>
+                    <div style="position: relative; left:450px"><a href="#">See More</a></div>
+                </div>
+                <div class="method">
+                    <h3 style="border:1px solid rgb(216, 210, 210);height: 30px;">
+                        <img src="public/up.svg" alt="">
+                        Thread A</h3>
+                    <p>How are you going to develop your strategy? Which method are you going to use to develop a
+                        strategy? What if the project is lengthy?</p>
+                </div>
+                <div style="position: relative; left:450px"><a href="#">See More</a></div>
+                <div class="method">
+                    <h3 style="border:1px solid rgb(216, 210, 210);height: 30px;">Example 1</h3>
+                    <p style="text-align: center;">You have a concept; how will you put it into process?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notice-board" id="noticeBoard">
+        <div class="notice-board-header">
+            <span></span>
+            <button onclick="closeNoticeBoard()">
+                <div class="btn-cir">
+                    <img src="public/leftarrow.svg" alt="Close">
+                </div>
+            </button>
+        </div>
+        <div class="notice-board-content">
+            <ul>
+                <li><b>Explore the world of management</b></li>
+                <br>
+                <li>Technical Project Management</li>
+                <li>Threadbuild</li>
+                <li>Structure you pointers</li>
+                <li>4SA Method</li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="notice-board-toggle" id="noticeBoardToggle" onclick="openNoticeBoard()">
+        <div class="btn-cir">
+            <img src="public/arrow.svg" alt="Close">
+        </div>
+    </button>
+    <div class="board">
+        <br>
+        &nbsp; <img src="public/cross.svg" alt="">
+        <br>
+        <br>
+        &nbsp; &nbsp; N
+        <br>
+        &nbsp; &nbsp; o
+        <br>
+        &nbsp; &nbsp; t
+        <br>
+        &nbsp; &nbsp; i
+        <br>
+        &nbsp; &nbsp; c
+        <br>
+        &nbsp; &nbsp; e
+        <br>
+        <br>
+        &nbsp;&nbsp;
+
+        B
+        <br>
+        &nbsp; &nbsp;o
+        <br>
+        &nbsp; &nbsp;a
+        <br>
+        &nbsp; &nbsp;r
+        <br>
+        &nbsp; &nbsp;d
+
+
+        <script>
+            function openNoticeBoard() {
+                document.getElementById('noticeBoard').style.left = '0';
+                document.getElementById('noticeBoardToggle').style.display = 'none';
+            }
+
+            function closeNoticeBoard() {
+                document.getElementById('noticeBoard').style.left = '-300px'; // Adjust the width accordingly
+                document.getElementById('noticeBoardToggle').style.display = 'block';
+            }
+        </script>
+</body>
+
+</html>
